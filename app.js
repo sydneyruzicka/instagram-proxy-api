@@ -26,7 +26,7 @@ const Url = require('url');
  * @const
  */
 const InstaProxy = {
-  ALLOW_UNDEFINED_REFERER: false,
+  ALLOW_UNDEFINED_REFERER: true,
   DEBUG_MODE: false || (process.env.NODE_ENV === 'dev'),
   ERROR_LOG_SEVERITY: 2,
   ENABLE_REFERER_CHECK: true,
